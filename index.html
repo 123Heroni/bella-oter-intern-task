@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Otér – Body Discovery</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&display=swap" rel="stylesheet" />
+
+    <!-- Link to your CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <main>
+        <!-- Header with optional SVG icon -->
+        <header class="header">
+            <div class="icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="#C1B6DC">
+      <path d="M12 2s2 4 2 8-2 6-2 6-2-2-2-6 2-8 2-8z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M12 2c-4 2-6 5.5-6 10 0 2.5 1.5 5 4 6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+            </div>
+            <h1 class="title">Bella Otér</h1>
+        </header>
+
+
+
+
+
+        <!-- Question Section -->
+        <section id="question-section">
+            <h2 class="question">What does your body crave today?</h2>
+            <div class="options">
+                <button data-choice="grounding">Grounding</button>
+                <button data-choice="softness">Softness</button>
+                <button data-choice="energy">Energy</button>
+                <button data-choice="freedom">Freedom</button>
+            </div>
+        </section>
+
+        <!-- Result Section (hidden by default) -->
+        <section id="result-section" style="display: none;">
+            <div class="result-content">
+                <h3 class="archetype">The Rooted One</h3>
+                <h4 class="product-name">Embrace Bodysuit</h4>
+                <p class="description">A form-fitting suit that grounds you in calm confidence.</p>
+                <p class="fabric-tag">Fabric: Cooling Mesh</p>
+                <div class="product-image">
+                    <!-- Placeholder Image -->
+                    <img src="https://via.placeholder.com/300x400" alt="Product preview" />
+                </div>
+                <button id="restart-btn">Start Over</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Link to your JS -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
